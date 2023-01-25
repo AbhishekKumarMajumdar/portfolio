@@ -1,0 +1,134 @@
+@media(max-width:77em){
+
+    .container{
+            max-width:110rem;
+            padding:0 3.5rem;
+        }
+        .hero-bg::before{
+            background: none;
+        }
+        .navbar-list{
+            gap:3rem;
+        }
+
+}
+@media(max-width:62.5em){
+    html{
+        font-size:50%;
+        
+    }
+    
+
+    .grid{
+        gap: 3.5rem;
+    }
+}
+
+@media(max-width:47em){
+        html{
+            font-size: 40%;
+        }
+        .hero-section h1{
+            line-height:1.7;
+        }
+        .service-section .grid-three-column{
+            grid-template-columns:repeat(2,1fr);
+        }
+        .footer-section .grid-four-column{
+            grid-template-columns:1fr 1fr;
+        }
+
+}
+
+@media(max-width:32em){
+    .container{
+        max-width:65rem;
+    }
+    .section-hero .grid-two-column{
+        grid-template-columns: 1fr;
+    }
+    .left-hero{
+        align-items: center;
+    }
+    .hero-para , .hero-heading{
+        text-align: center;
+    }
+    .right-hero img {
+        width: 70%;
+    }
+
+
+    /* bio data  */
+    .section-bio-data .grid-two-column{
+        grid-template-columns:1fr;
+    }
+    .section-bio-data .bio-img{
+        grid-row:2/3;
+        margin-top:3.2rem;
+    }
+    .section-bio-data .bio-img img {
+        width: 50%;
+    }
+    /* portfolio section */
+    .section-portfolio .grid-three-column{
+        grid-template-columns: 1fr 1fr;
+    }
+    /* work section */
+    .section-work .grid-four-column{
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+
+
+@media(max-width:750px){
+    .header{
+        position: relative;
+    }
+    .mobile-navbar-btn{
+        display: block;
+        z-index: 999;
+        border:2px solid var(--black);
+        color:var(--black);
+    }
+    .mobile-navbar-icon{
+        height:3.5rem;
+        width: 3.5rem;
+
+    }
+    .active .navbar{
+        transform: translateX(0);
+        transition:all 0.5s linear;
+        opacity: 1;
+        visibility:visible;
+        pointer-events:auto;
+    }
+    .navbar{
+        height:100vh;
+        width:100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background:var(--gradient);
+        display:flex;
+        z-index:55;
+        align-items:center;
+        justify-content:center;
+        transform: translateX(100%);
+        transition:all 0.5s linear;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    .navbar-list{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .active .mobile-navbar-btn .mobile-navbar-icon[name="menu-outline"]{
+        display: none;
+    }
+    .active .mobile-navbar-btn .mobile-navbar-icon[name="close-outline"]{
+        display:block;
+    }
+}

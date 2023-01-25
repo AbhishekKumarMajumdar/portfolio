@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="my portfolio website to showcase the work "/>
+    <meta name="keywords" content="HTML, CSS, javaScript, portfolio Website" />
+    <meta name="author" content="Abhishek Kumar Majumdar"/>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9860052336501082"
+     crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+    <script defer src="js/intex.js"></script>
+    <title>Chiku</title>
+</head>
+<body onload="load()">
+    <header class="header">
+        <picture>
+            <source srcset="img/min/logo-min.png" type="image/png"/>
+            <source srcset="img/webp/logo.webp" type="image/webp"/>
+            <img src="img/logo.png" alt="">
+
+        </picture>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-link"><a href="#herosection" id="nav-home">home</a></li>
+                <li class="navbar-link"><a href="#portfoliosection" id="nav-portfolio">portfolio</a></li>
+                <li class="navbar-link"><a href="#servicesection" id="nav-service">service</a></li>
+                <li class="navbar-link"><a href="#section-portfolio" id="nav-home">Project</a></li>
+                <li class="navbar-link"><a href="#contactsection" id="nav-contect">contect</a></li>
+
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-navbar-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-navbar-icon"></ion-icon>
+        </div>
+   </header>
+   <!--/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                      hero section start here 
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/ -->
+<main>
+    <section class="section-hero hero-bg section" id="herosection">
+        <div class="hero-grid grid grid-two-column container">
+            <!-- HERO LEFT SECTION -->
+            <div class="left-hero">
+                <p class="hero-data">This Is Me</p>
+                <h1 class="hero-heading">Abhishek Kumar Majumdar</h1>
+                <p class="hero-para">
+                    Computer Science Student @ APJ ABDUL KALAM INSTITUDE OF TECHNOLOGY TANAKPUR
+                </p>
+                <div>
+                    <a href="#" class="btn hero-btn">hire me</a>
+                </div>
+            </div>
+            <!-- HERO RIGHT SECTION -->
+            <div class="right-hero" data-aos="fade-down-left">
+                <picture>
+                    <source srcset="img/min/portfolioPic-min.png" type="image/png"/>
+                    <source srcset="img/webp/portfolioPic.webp" type="image/webp"/>
+                    <img src="img/portfolioPic.png" loading="lazy" class="hero-img" alt=" hey this is me">
+
+                </picture>
+            </div>
+        </div>
+
+    </section>
+</main>
+
+<!--/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                      bio data section start here 
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/ -->
+<section class="section-bio-data section" id="portfoliosection">
+ <div class="hero-grid grid grid-two-column container">
+    <div class="bio-img" data-aos="fade-down-right">
+        <picture>
+            <source srcset="img/min/mypic3-min.png" type="image/png"/>
+            <source srcset="img/webp/mypic3.webp" type="image/webp"/>
+            <img src="img/mypic3.png" alt="">
+
+        </picture>
+    </div>
+    <div class="right-bio" data-aos="fade-down-left">
+        <h2 class="commen-heading">my bio-data</h2>
+        <div class="bio-data-stats">
+            <div class="bio-stats">
+                <h3>design</h3>
+                <div class="bio-progress-bar">
+                    <span>80%</span>
+                </div>
+            </div>
+
+            <div class="bio-stats">
+                <h3>html</h3>
+                <div class="bio-progress-bar-1 bio-progress-bar">
+                    <span>99%</span>
+                </div>
+            </div>
+
+            <div class="bio-stats">
+                <h3>css</h3>
+                <div class="bio-progress-bar bio-progress-bar-2">
+                    <span>70%</span>
+                </div>
+            </div>
+
+            <div class="bio-stats">
+                <h3>javascript</h3>
+                <div class="bio-progress-bar bio-progress-bar-3">
+                    <span>80%</span>
+                </div>
+            </div>
+
+            <div class="bio-stats">
+                <h3>react.js</h3>
+                <div class="bio-progress-bar bio-progress-bar-4">
+                    <span>70%</span>
+                </div>
+            </div>
+
+            <div class="bio-stats">
+                <h3>node.js</h3>
+                <div class="bio-progress-bar bio-progress-bar-5">
+                    <span>60%</span>
+                </div>
+            </div>
+        </div>
+        <div class="bio-btn">
+            <a href="#" class="btn">downlode cv</a>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!--/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                      portfolio  section start here 
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/ -->
+
+<section class="section section-portfolio" id="section-portfolio">
+
+    <div class="container">
+        <h2 class="commen-heading">latest works</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, eos?</p>
+    </div>
+    <div class="p-btns">
+        <div class="btn p-btn" data-btn-num="1">Website</div>
+        <div class="btn p-btn" data-btn-num="2">Photoshop</div>
+        <div class="btn p-btn" data-btn-num="3">design</div>
+    </div>
+    <div class="container grid grid-three-column portfolio-img" data-aos="flip-left">
+
+        <div class="img-overlay p-btn--1">
+            <picture>
+   
+               <img src="https://pilibhittigerreserve.in/images/pil;ibhit.jpg" alt="">
+            </picture>
+            <div class="overlay">
+                <a href="https://pilibhittigerreserve.netlify.app/" target="_abhi" class="commen-heading project-name" >Piliphit Tiger Reserve</a>
+            </div>
+        </div>
+
+        <div class="img-overlay p-btn--2">
+            <picture>
+                <source srcset="img/min/p-over-min.jpg" type="image/jpg"/>
+               <source srcset="img/webp/p-over.webp" type="image/webp"/>
+               <img src="img/p-over.jpg" alt="">
+
+            </picture>
+            <div class="overlay">
+                <a href="https://techcoder.info/" target="_abhi" class="commen-heading">Tech Coder </a>
+            </div>
+        </div>
+        <div class="img-overlay p-btn--3">
+            <picture>
+                <source srcset="img/min/design-min.jpg" type="image/jpg"/>
+               <source srcset="img/webp/design.webp" type="image/webp"/>
+               <img src="img/design.jpg" alt="">
+            </picture>
+            <div class="overlay">
+                <a href="www.google.com" target="_abhi" class="commen-heading">Project 3</a>
+            </div>
+        </div>
+    </div>
+</section>
+   <!--/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                      work section start here 
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/-->
+
+<section class="section section-work">
+    <div class="comtainer grid grid-four-column" data-aos="flip-right">
+        <div>
+            <h2 class="counter-number" data-number="2000">0+</h2>
+            <p>Project Completed</p>
+        </div>
+        <div>
+            <h2 class="counter-number" data-number="3000">0+</h2>
+            <p>Happy customer</p>
+        </div>
+        <div>
+            <h2 class="counter-number" data-number="2000">0+</h2>
+            <p>Project panding</p>
+        </div>
+        <div>
+            <h2 class="counter-number" data-number="1000">0+</h2>
+            <p>cup of coff</p>
+        </div>
+    </div>
+</section>
+  <!--/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                      services section start here 
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/-->
+<section class="section service-section" id="servicesection">
+    <div class="container">
+        <h2 class="commen-heading">work services</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut officiis ex sed voluptatum vitae ipsam.</p>
+    </div>
+    <div class="container grid grid-three-column">
+        <div class="service-box" data-aos="zoom-in-up">
+            <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
+            <h3>web designs</h3>
+            <p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips.</p>
+        </div>
+        <div class="service-box" data-aos="zoom-in-up">
+            <ion-icon name="aperture-sharp" class="service-icon"></ion-icon>
+            <h3>photography</h3>
+            <p>When words become unclear, I shall focus with photographs. When images become inadequate, I shall be content with silence.</p>
+        </div>
+        <div class="service-box" data-aos="zoom-in-up">
+            <ion-icon name="aperture-sharp" class="service-icon"></ion-icon>
+            <h3>clipping path</h3>
+            <p>Clipping path is the path we use to clip an element, it marks out our clipping region. It can be a basic shape or a complex polygonal path. The clipping region then includes all the area enclosed within the clipping path.</p>
+        </div>
+        <div class="service-box" data-aos="zoom-in-up">
+            <ion-icon name="trophy-sharp" class="service-icon"></ion-icon>
+            <h3>graphic designer</h3>
+            <p>Design is not just what it looks like and feels like. Design is how it works</p>
+        </div>
+        <div class="service-box" data-aos="zoom-in-up">
+            <ion-icon name="apps-sharp" class="service-icon"></ion-icon>
+            <h3>UI/UX</h3>
+            <p>UI is the saddle, the stirrups, & the reins. UX is the feeling you get being able to ride the horse.</p>
+        </div>
+        <div class="service-box" data-aos="zoom-in-up">
+            <ion-icon name="cube-sharp" class="service-icon"></ion-icon>
+            <h3>Mobile apps</h3>
+            <p>The future of mobile is the future of online. It is how people access online content now.</p>
+        </div>
+    </div>
+</section>
+  <!--/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                      Switer section start here 
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/-->
+
+<section class="section swiper-section">
+    <div class="container">
+        <h2 class="commen-heading">Happy clints </h2>
+    </div>
+
+<div class="swiper mySwiper container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+          <div class="swiper-clint-msg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias ullam est sed doloribus atque dolores explicabo dolore, aliquid laudantium voluptas eveniet? Voluptas, atque eos. Nemo voluptatibus neque adipisci nobis!</p>
+          </div>
+           <div class="swiper-clint grid grid-two-column">
+            <figure>
+                <picture>
+                    <source srcset="img/min/clint1-min.jpg" type="image/jpg"/>
+                   <source srcset="img/webp/clint1.webp" type="image/webp"/>
+                   <img src="img/clint1.jpg" alt="">
+                </picture>
+            </figure>
+          </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-clint-msg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias ullam est sed doloribus atque dolores explicabo dolore, aliquid laudantium voluptas eveniet? Voluptas, atque eos. Nemo voluptatibus neque adipisci nobis!</p>
+          </div>
+           <div class="swiper-clint grid grid-two-column">
+            <figure>
+                <picture>
+                    <source srcset="img/min/clint2-min.jpg" type="image/jpg"/>
+                   <source srcset="img/webp/clint2.webp" type="image/webp"/>
+                   <img src="img/clint2.jpg" alt="">
+                </picture>            </figure>
+          </div>
+      </div>
+      <div class="swiper-slide"><div class="swiper-clint-msg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias ullam est sed doloribus atque dolores explicabo dolore, aliquid laudantium voluptas eveniet? Voluptas, atque eos. Nemo voluptatibus neque adipisci nobis!</p>
+      </div>
+       <div class="swiper-clint grid grid-two-column">
+        <figure>
+            <picture>
+                <source srcset="img/min/clint3-min.jpg" type="image/jpg"/>
+               <source srcset="img/webp/clint3.webp" type="image/webp"/>
+               <img src="img/clint3.jpg" alt="">
+            </picture>        </figure>
+      </div></div>
+      <div class="swiper-slide"><div class="swiper-clint-msg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias ullam est sed doloribus atque dolores explicabo dolore, aliquid laudantium voluptas eveniet? Voluptas, atque eos. Nemo voluptatibus neque adipisci nobis!</p>
+      </div>
+       <div class="swiper-clint grid grid-two-column">
+        <figure>
+            <picture>
+                <source srcset="img/min/clint4-min.jpg" type="image/jpg"/>
+               <source srcset="img/webp/clint4.webp" type="image/webp"/>
+               <img src="img/clint4.jpg" alt="">
+            </picture>        </figure>
+      </div></div>
+      <div class="swiper-slide"><div class="swiper-clint-msg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias ullam est sed doloribus atque dolores explicabo dolore, aliquid laudantium voluptas eveniet? Voluptas, atque eos. Nemo voluptatibus neque adipisci nobis!</p>
+      </div>
+       <div class="swiper-clint grid grid-two-column">
+        <figure>
+            <picture>
+                <source srcset="img/min/clint1-min.jpg" type="image/jpg"/>
+               <source srcset="img/webp/clint1.webp" type="image/webp"/>
+               <img src="img/clint1.jpg" alt="">
+            </picture>        </figure>
+      </div></div>
+      <div class="swiper-slide"><div class="swiper-clint-msg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias ullam est sed doloribus atque dolores explicabo dolore, aliquid laudantium voluptas eveniet? Voluptas, atque eos. Nemo voluptatibus neque adipisci nobis!</p>
+      </div>
+       <div class="swiper-clint grid grid-two-column">
+        <figure>
+            <picture>
+                <source srcset="img/min/clint4-min.jpg" type="image/jpg"/>
+               <source srcset="img/webp/clint4.webp" type="image/webp"/>
+               <img src="img/clint4.jpg" alt="">
+            </picture>        </figure>
+      </div></div>
+      <div class="swiper-slide"><div class="swiper-clint-msg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias ullam est sed doloribus atque dolores explicabo dolore, aliquid laudantium voluptas eveniet? Voluptas, atque eos. Nemo voluptatibus neque adipisci nobis!</p>
+      </div>
+       <div class="swiper-clint grid grid-two-column">
+        <figure>
+            <picture>
+                <source srcset="img/min/clint3-min.jpg" type="image/jpg"/>
+               <source srcset="img/webp/clint3.webp" type="image/webp"/>
+               <img src="img/clint3.jpg" alt="">
+            </picture>        </figure>
+      </div></div>
+      <div class="swiper-slide"><div class="swiper-clint-msg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias ullam est sed doloribus atque dolores explicabo dolore, aliquid laudantium voluptas eveniet? Voluptas, atque eos. Nemo voluptatibus neque adipisci nobis!</p>
+      </div>
+       <div class="swiper-clint grid grid-two-column">
+        <figure>
+            <picture>
+                <source srcset="img/min/clint4-min.jpg" type="image/jpg"/>
+               <source srcset="img/webp/clint4.webp" type="image/webp"/>
+               <img src="img/clint4.jpg" alt="">
+            </picture>        </figure>
+      </div></div>
+      <div class="swiper-slide"><div class="swiper-clint-msg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias ullam est sed doloribus atque dolores explicabo dolore, aliquid laudantium voluptas eveniet? Voluptas, atque eos. Nemo voluptatibus neque adipisci nobis!</p>
+      </div>
+       <div class="swiper-clint grid grid-two-column">
+        <figure>
+            <picture>
+                <source srcset="img/min/clint1-min.jpg" type="image/jpg"/>
+               <source srcset="img/webp/clint1.webp" type="image/webp"/>
+               <img src="img/clint1.jpg" alt="">
+            </picture>        </figure>
+      </div></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+</section>
+  <!--/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                      Freelanceing section start here 
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/-->
+<section class="section freelancing-section">
+    <div class="overlay"></div>
+    <div class="container">
+        <h2>I am <span>available</span> for Freelancing</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus enim exercitationem at culpa nulla amet!</p>
+        <a href="#contactsection" class="btn">Hire Me</a>
+    </div>
+</section>
+  <!--/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                      Contact us section start here 
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/-->
+<section class="section contact-section" id="contactsection">
+    <div class="container">
+    <div class="commen-heading">contact us</div>
+    </div>
+    <div class="contact-section-main contact-container">
+        <form  action="https://formspree.io/f/moqrokan"
+        method="POST">
+            <div class="grid grid-two-column">
+                <div>
+                    <label for="username"></label>
+                    <input type="text" name="username" required placeholder="enter username" autocomplete="off" id="username"/>
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input type="email" name="email" required  placeholder="enter email" autocomplete="off" id="email"/>
+                </div>
+            </div>
+            <div>
+                <label for="subject"></label>
+                <input type="text" name="subject" required  id="subject" autocomplete="off" placeholder="enter your subject"/>
+            </div>
+            <div>
+            <label for="textarea"></label>
+            <textarea name="textarea" autocomplete="off" required placeholder="enter message" min="5" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" name="submit" id="submit" value="send message" class="btn"/>
+            </div>
+        </form>
+    </div>
+</section>
+
+  <!--/*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                      footer section start here 
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/-->
+<footer class="section footer-section">
+    <div class="container grid grid-four-column">
+        <div class="f-about">
+            <h3>about us</h3>
+            <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+
+              <p> Please wait for a while all major projects will be listed soon. Till then keep visiting. Connect with me over live chat!
+                
+                </p>
+            
+        </div>
+         <div class="f-links">
+        <h3>Links</h3>
+        <ul>
+            <li><span><ion-icon name="arrow-forward"></ion-icon></span><a href="#herosection">home</a></li>
+            <li><span><ion-icon name="arrow-forward"></ion-icon></span><a href="#servicesection">service</a></li>
+            <li><span><ion-icon name="arrow-forward"></ion-icon></span><a href="#section-portfolio">Project</a></li>
+            <li><span><ion-icon name="arrow-forward"></ion-icon></span><a href="#contactsection">contect us</a></li>
+            <li><span><ion-icon name="arrow-forward"></ion-icon></span><a href="#portfoliosection">Portfolio</a></li>
+        </ul>
+         </div>
+                         <!-- end -->
+          <div class="f-service">
+        <h3> Our Services</h3>
+        <ul>
+            <li><span><ion-icon name="arrow-forward"></ion-icon></span><a href="#">Web Design</a></li>
+            <li><span><ion-icon name="arrow-forward"></ion-icon></span><a href="#">Blockchain</a></li>
+            <li><span><ion-icon name="arrow-forward"></ion-icon></span><a href="#">Web Development</a></li>
+            <li><span><ion-icon name="arrow-forward"></ion-icon></span><a href="#">App Design</a></li>
+            <li><span><ion-icon name="arrow-forward"></ion-icon></span><a href="#">Backend</a></li>
+        </ul>
+          </div>
+                    <!-- end -->
+        <div class="f-address">
+        <h3>Have a Question ?</h3>
+        <address>
+            <div>
+               <p><span><ion-icon name="navigate"></ion-icon></span> Lalkuan India </p>
+            </div>
+            <div>
+                <p><span><ion-icon name="phone-portrait"></ion-icon></span><a href="tel:+917455069625"> +91 7455069625</a></p>
+             </div>
+             <div>
+                <p><span><ion-icon name="mail"></ion-icon></span><a href="mailto:pk006604@gmail.com"> pk006604@gmail.com</a></p>
+             </div>
+        </address>
+        </div>
+    </div>
+ <div class="container ">
+        <div class="f-icons">
+                <a href="https://www.instagram.com/its.chiku__/" target="_blank"><ion-icon class="icon" name="logo-instagram"></ion-icon></a>
+                <a href="" target="_blank"><ion-icon class="icon" name="logo-facebook"></ion-icon></a>
+                <a href="" target="_blank"><ion-icon class="icon" name="logo-linkedin"></ion-icon></a>
+                <a href="" target="_blank"><ion-icon class="icon" name="logo-youtube"></ion-icon></a>
+
+        </div>
+     </div>
+     <div class="f-credit">
+        <p>
+            copyright ©️2022 all rights reserved || this website made by Abhishek Kumar Majumdar ❤️
+        </p>
+     </div>
+</footer>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+</body>
+</html>
